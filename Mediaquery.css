@@ -1,0 +1,23 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+/*Mobile/HP*/
+@media only screen and (min-width:500px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media only screen and (min-width:700px){
+    body{
+        background-color: rgb(192, 226, 43);
+    }
+}
+@media only screen and (min-width:800px){
+    body {
+        background-color: rgb(255, 0, 136);
+    }
+    h1 {font-family: Arial, Helvetica, sans-serif;}
+}
